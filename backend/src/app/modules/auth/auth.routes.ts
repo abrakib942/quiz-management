@@ -11,7 +11,7 @@ router.post(
   authcontroller.createauthUser
 );
 router.post(
-  '/signin',
+  '/login',
   validateRequest(UserValidation.loginUserZodSchema),
   authcontroller.loginUser
 );

@@ -8,7 +8,7 @@ const createauthUser = catchAsync(async (req: Request, res: Response) => {
   res.send({
     success: true,
     statusCode: 200,
-    message: 'Users created successfully',
+    message: 'User created successfully',
     data: result,
   });
 });
