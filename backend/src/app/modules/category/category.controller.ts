@@ -90,7 +90,7 @@ const deleteCategory = catchAsync(async (req: Request, res: Response) => {
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'Category retrieved successfully',
+    message: 'Category Deleted successfully',
     data: result,
   });
 });
